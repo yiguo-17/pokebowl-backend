@@ -25,7 +25,7 @@ getRow('charmander') //-> ['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']
 ```javascript
 getUrl(['pikachu', 'https://pokeapi.co/api/v2/pokemon/25/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'
 
-`getUrl(['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'`
+getUrl(['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'
 ```
  
 
