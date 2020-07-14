@@ -13,12 +13,20 @@ We'll be exploring a 2D Array to see how that feels before we start using them i
 You'll only need two functions to pass these tests.
 
 * `getRow` - given a string, looks through the `pokemon` array and returns the sub-array that contains it
-  * `getRow('pikachu') //-> ['pikachu', 'https://pokeapi.co/api/v2/pokemon/25/']`
-  * `getRow('charmander') //-> ['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']`
+
+```javascript
+getRow('pikachu') //-> ['pikachu', 'https://pokeapi.co/api/v2/pokemon/25/']
+
+getRow('charmander') //-> ['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']
+```
 
 * `getUrl` - given a row sub-array (like the example outputs above), returns the URL from it.
-  * `getUrl(['pikachu', 'https://pokeapi.co/api/v2/pokemon/25/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'`
-  * `getUrl(['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'`
+
+```javascript
+getUrl(['pikachu', 'https://pokeapi.co/api/v2/pokemon/25/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'
+
+`getUrl(['charmander', 'https://pokeapi.co/api/v2/pokemon/4/']) //-> 'https://pokeapi.co/api/v2/pokemon/4/'`
+```
  
 
 ### Hints
