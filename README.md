@@ -6,6 +6,8 @@ We'll be exploring a 2D Array to see how that feels before we start using them i
 ### Workflow
 
 * You'll be running `jest --watch-all`, but working in two separate files, one per function. Each one has a corresponding test file you can check out to see how each test is working.
+* Don't forget to check out the `pokemon.js` file to see what our data looks like!
+* And this README looks a LOT better on GitHub, so check it out there.
 
 
 ### Tasks
